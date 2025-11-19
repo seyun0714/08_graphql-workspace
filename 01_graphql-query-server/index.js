@@ -60,7 +60,6 @@ const resolvers = {
     posts: () => posts,
     user: (_, { id }) => users.find((user) => user.id === id),
     post: (_, { id }) => posts.find((post) => post.id === id),
-    h,
   },
 
   User: {
